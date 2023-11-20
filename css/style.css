@@ -1,0 +1,415 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background:#FAFDF3;
+}
+
+header {
+    background: url(../img/fon.png) center/cover no-repeat;
+    position: relative;
+    height: 72rem;
+    padding: 5rem 12rem 15.3rem 12rem;
+}
+
+.nav-header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+img {
+    width: 18.4rem;
+}
+
+a {
+    margin-right: 2.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+a:last-child {
+    margin-right: 0;
+}
+
+a:hover {
+    color: #233203;
+        
+    }
+
+.nav-button {
+    padding: 2rem 4rem;
+    border-radius: 0.8rem;
+    border-color: #FAFDF3;
+    background-color: transparent;
+    color: #FAFDF3;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.header-button:hover {
+        color: #233203;
+        
+    }
+
+article {
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-header {
+    color: #FAFDF3;
+    font-size: 1.6rem;
+    margin-top: 154px;
+    font-weight: 500;
+}
+
+h1 {
+    color: #FAFDF3;
+    font-size: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-weight: 500;
+}
+
+.article-button {
+    padding: 2rem 4rem;
+    border-radius: 0.8rem;
+    border-color: #FAFDF3;
+    background-color: #FAFDF3;
+    color: #233203;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.line {
+    border: 1px solid #D9D9D9;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    height: 12rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-right: 73rem;
+}
+
+.section {
+    width: 120rem;
+    margin: auto;
+    padding: auto;
+}
+
+.about {
+    display: flex;
+    height: 38rem;
+}
+
+.about:last-child {
+    margin-right: 0;
+}
+
+.section1-title {
+    color:#233203;
+    text-align: center;
+    margin-bottom: 6rem;
+    font-weight: 500;
+    font-size: 4.4rem;
+}
+
+.section-text {
+    width: 60.3rem;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.section-text1 {
+    width: 60.3rem;
+    padding-left: 3rem;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.text1  {
+    border: 1px solid #D9D9D9;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: #233203;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
+    margin-right: 2rem;
+    
+}
+
+.text2 {
+    border: 1px solid #D9D9D9;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: #233203;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
+    margin-right: 2rem;
+}
+
+
+.text3 {
+    border: 1px solid #D9D9D9;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: #233203;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
+
+}
+
+
+.foto-text {
+    border: 1px solid #D9D9D9;
+    background: url(../img/foto-sec1.png);
+    width: 69rem;
+    height: 38rem;
+    color: #233203;
+    margin: 0;
+    margin-right: 2rem;
+}
+
+.booking-tour {
+    background: url(../img/foto-sec3.png) center/cover no-repeat;
+}
+
+.carousel-inner {
+    width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control-prev {
+    margin-left: 18rem;
+}
+
+.carousel-control-next {
+    margin-right: 18rem;
+}
+
+.section3 {
+    position: relative;
+}
+
+.booking-tour {
+    height: 72rem;
+}
+
+.booking-tour-title {
+    width: 66.6rem;
+    height: 9.6rem;
+    position: absolute;
+    text-align:center;
+    left: 42rem;
+    top: 40rem;
+    margin-bottom: 3.2rem;
+}
+
+.title-section3 {
+    color: #FAFDF3;
+    margin-bottom: 0;
+    text-align: center; 
+    font-weight: 500;
+    font-size: 4.4rem;
+}
+
+.section3-button {
+    position: absolute;
+    left: 62rem;
+    top: 54.5rem;
+}
+
+.section4 {
+    width: 120rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.line4 {
+    margin-right: 60rem;
+}
+
+.section4-price {
+    display: flex;
+    flex-direction: row;
+}
+
+.section4-img {
+    width: 28.5rem;
+    height: 50rem;
+}
+
+.section4-allprice {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2.5rem 6.3rem;
+}
+
+
+.section4-services {
+    width: 50.4rem;
+    height: 36.2rem;
+    margin-bottom: 2rem;
+
+} 
+ 
+h3 {
+    font-weight: 500;
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+span {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.section4-sales {
+    width: 50.4rem;
+    height: 6.8rem;
+    font-size: 1.4rem;
+}
+
+
+.section5-information {
+    display: flex;
+    justify-content:center;
+
+}
+
+.foto-section5 {
+    width: 25rem;
+    margin-right: 6rem;
+}
+
+h4 {
+    margin-bottom: 3rem;
+}
+
+.footer {
+    background-color: #011209;
+    height: 31rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 18.4rem;
+    margin-right: 32.9rem;
+
+}
+
+.button-footer {
+    display: block;
+    margin-right: 29.4rem;
+    border: 1px solid #FAFDF3;
+    background-color: transparent;
+    color:#FAFDF3;
+    border-radius: 0.8rem;
+    padding: 0.5rem 1rem;
+}
+
+.header-footer:hover {
+    color: #638b0a;
+    
+}
+
+.text-footer {
+    color: #FAFDF3;
+}
+
+main {
+	display: flex;
+	padding: 6rem 0;
+	justify-content: center;
+}
+
+.second-body {
+    background: url(../img/fon.png) center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form {
+	justify-content: center;
+	width: 50rem;
+    height: 22rem;
+	border-radius: 0.8rem;
+	border: 0.1rem solid #FAFDF3;
+    background:#FAFDF3;
+	padding: 2rem;
+    
+}
+
+.main-form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+main form div label {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.last-label {
+    margin-bottom: 1rem;
+}
+
+.form-button {
+    width: 10rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+}
+
+.button {
+    margin: auto;
+    padding: auto;
+}
